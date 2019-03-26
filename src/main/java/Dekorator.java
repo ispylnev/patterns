@@ -24,6 +24,7 @@ class Printer implements PrinterInt {
     }
 }
 
+
 class DekoratorForPrinter implements PrinterInt {
     PrinterInt component;
 
