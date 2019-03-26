@@ -35,3 +35,5 @@ class DekoratorForPrinter implements PrinterInt {
         component.print();
     }
 }
+
+
