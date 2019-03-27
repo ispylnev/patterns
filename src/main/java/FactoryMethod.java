@@ -3,6 +3,7 @@ import java.time.Instant;
 
 public class FactoryMethod {
     public static void main(String[] args) {
+
         WatchMacker watchMacker = new DigitalWatchMaker();
         Watch watch = watchMacker.creatWach();
     }
@@ -27,7 +28,7 @@ class RomeWatch implements Watch {
 }
 
 /*
-Создаем класс в котором опишем наш фабричный метод
+Создаем интерфейс в котором объявим наш фабричный метод
  */
 interface WatchMacker {
     Watch creatWach();
