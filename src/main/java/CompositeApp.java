@@ -48,6 +48,7 @@ class Triangle implements Shape {
     }
 }
 
+//в композите необходимо инициализировать массив. Собственно ради прохода по нему методом draw все и затевалось
 class Composite implements Shape {
     private List<Shape> components = new ArrayList<>();
 
