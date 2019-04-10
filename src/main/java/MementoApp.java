@@ -8,6 +8,7 @@ public class MementoApp {
         file.setSave(game.save());
 
         game.load(file.getSave());
+        System.out.println(game);
 
     }
 }
