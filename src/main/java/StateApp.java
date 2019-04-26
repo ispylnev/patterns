@@ -59,7 +59,7 @@ class Radio {
             setStation(new RuRadio());
         } else if (station instanceof RuRadio) {
             setStation(new EnRadio());
-        } else if (station instanceof RuRadio) {
+        } else if (station instanceof EnRadio) {
             setStation(new Radio7());
         }
     }
